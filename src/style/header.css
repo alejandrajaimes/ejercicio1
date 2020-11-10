@@ -1,0 +1,60 @@
+body{
+    font-family: "Oswald-Light";
+
+}
+.encabezado{
+    width: 100%;
+    height:100px;
+    background:#598d8b;
+    position: fixed;
+    z-index: 100;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.container-header{
+    width: 100%;
+    max-width: 2000px;
+    position: relative;
+    
+    display: flex;
+   
+}
+.container-logo-title{
+    display: flex;
+
+   
+}
+
+.container-logo-title img{
+    width: 60px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top:10px 
+}
+.container-logo-title1{
+    margin-left: 80%;
+}
+
+.img-bruja{
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+    margin-top:10px;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+    
+}
+    
+
+.container-logo-title h1
+{
+    color: #fff;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-left: 10PX;
+    font-size: 25px; 
+
+}
+@font-face{
+    font-family: "Oswald-Light";
+    src: url("../static/Oswald-Light.ttf");
+}

@@ -1,0 +1,82 @@
+.contenidogeneral{
+    width: 100%;
+    height:100%;
+    background: #00c2ff;
+    position: fixed;
+    z-index: 100;
+}
+.centralHome{
+    
+    width: 60%;
+    height: 400px;
+    max-width: 1000px;
+    margin: 70px auto;
+    padding-top: 110px;
+    
+}
+
+.logo-tex{
+
+   margin-left: 85px;
+    display: flex;
+    
+}
+.texto1{
+   margin-top: 30px;
+   font-size: 25px;
+   
+  
+}
+.img-logo3{
+    width: 170px;
+    height: 180px;
+}
+.img-logo2{
+    width: 70px;
+    height: 70px;
+}
+.textos-generales{
+   
+    height: 200px;
+    
+    
+    
+}
+.texto2{
+    font-size: 80px;
+    line-height: 70px;
+}
+.texto3{
+     
+    line-height: 30px;
+}
+.texto1, .texto2, .texto3{
+    font-family: "Oswald-Light";
+    color: #fff;
+    font-weight: 800; 
+}
+
+.boton1{
+       
+    background: #6cd1ab;
+    border: none;
+    border-radius: 5%;
+    font-size: 25px;
+     width: 120px;
+     height: 40px;
+     color: #fff;
+     font-weight: 900;
+     box-shadow: 0px 2px 5px black;
+       
+}
+
+
+
+.brujahome{
+   
+    margin-right: 90px;
+}
+@font-face{
+    font-family: "Oswald-Light";
+    src: url("../static/Oswald-Light.ttf");
+}
